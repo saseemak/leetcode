@@ -1,11 +1,6 @@
 public class RotateArray{
    public static void main(String[] args){
       int[] nums = new int[]{1,2,3,4,5,6,7};
-      int[] nums1 = new int[]{-1,-100,3,99};
-      //rotate(nums,3);
-      //rotate(nums1,2);
-    //   rotateExtraArray(nums, 3);
-    //   rotateExtraArray(nums1, 2);
     rotateUsingReverse(nums, 2);
    }
    public static void rotate(int[] nums, int k) {
