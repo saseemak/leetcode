@@ -1,5 +1,3 @@
-
-import java.util.*;
 public class RemoveElement{
     public static void main(String[] args){
         int[] nums = new int[]{3,2,2,3};
@@ -38,7 +36,8 @@ public class RemoveElement{
     return i;
    }
    public static int removeElementWithSwapping(int[] nums, int val){
-       int i = 0, count = 0;
+       int i = 0;
+       int  count = 0;
        int n = nums.length;
        while(i< n-count){
           if(nums[i] == val)
